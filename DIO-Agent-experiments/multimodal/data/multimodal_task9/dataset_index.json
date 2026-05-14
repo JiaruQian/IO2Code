@@ -1,0 +1,358 @@
+{
+  "dataset_name": "multimodal_task9_diverse_v1",
+  "seed": 20261300,
+  "split": {
+    "train": 8,
+    "test": 15
+  },
+  "target_definition": "arrow direction class (0-7)",
+  "train": [
+    {
+      "id": "image_001",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.34,
+          "dy": 0.0
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/train/images/image_001.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_002",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.34,
+          "dy": 0.0
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/train/images/image_002.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_003",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": -0.25,
+          "dy": -0.25
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/train/images/image_003.png"
+      },
+      "target_n": 6
+    },
+    {
+      "id": "image_004",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": -0.25,
+          "dy": 0.25
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/train/images/image_004.png"
+      },
+      "target_n": 7
+    },
+    {
+      "id": "image_005",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.0,
+          "dy": -0.34
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/train/images/image_005.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_006",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.34,
+          "dy": 0.0
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/train/images/image_006.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_007",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.25,
+          "dy": 0.25
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/train/images/image_007.png"
+      },
+      "target_n": 4
+    },
+    {
+      "id": "image_008",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": -0.25,
+          "dy": 0.25
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/train/images/image_008.png"
+      },
+      "target_n": 7
+    }
+  ],
+  "test": [
+    {
+      "id": "image_009",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": -0.34,
+          "dy": 0.0
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_009.png"
+      },
+      "target_n": 3
+    },
+    {
+      "id": "image_010",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": -0.25,
+          "dy": 0.25
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_010.png"
+      },
+      "target_n": 7
+    },
+    {
+      "id": "image_011",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": -0.34,
+          "dy": 0.0
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_011.png"
+      },
+      "target_n": 3
+    },
+    {
+      "id": "image_012",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.0,
+          "dy": 0.34
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_012.png"
+      },
+      "target_n": 0
+    },
+    {
+      "id": "image_013",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": -0.25,
+          "dy": 0.25
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_013.png"
+      },
+      "target_n": 7
+    },
+    {
+      "id": "image_014",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": -0.25,
+          "dy": -0.25
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_014.png"
+      },
+      "target_n": 6
+    },
+    {
+      "id": "image_015",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.0,
+          "dy": -0.34
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_015.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_016",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": -0.34,
+          "dy": 0.0
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_016.png"
+      },
+      "target_n": 3
+    },
+    {
+      "id": "image_017",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.25,
+          "dy": 0.25
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_017.png"
+      },
+      "target_n": 4
+    },
+    {
+      "id": "image_018",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.25,
+          "dy": 0.25
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_018.png"
+      },
+      "target_n": 4
+    },
+    {
+      "id": "image_019",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.0,
+          "dy": 0.34
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_019.png"
+      },
+      "target_n": 0
+    },
+    {
+      "id": "image_020",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": -0.25,
+          "dy": -0.25
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_020.png"
+      },
+      "target_n": 6
+    },
+    {
+      "id": "image_021",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.0,
+          "dy": -0.34
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_021.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_022",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.0,
+          "dy": -0.34
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_022.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_023",
+      "task_name": "multimodal_task9",
+      "target_definition": "arrow direction class (0-7)",
+      "meta": {
+        "direction_vector": {
+          "dx": 0.0,
+          "dy": -0.34
+        }
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task9/test/images/image_023.png"
+      },
+      "target_n": 2
+    }
+  ]
+}

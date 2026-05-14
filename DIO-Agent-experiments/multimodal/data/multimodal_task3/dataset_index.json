@@ -1,0 +1,822 @@
+{
+  "dataset_name": "multimodal_task3_diverse_v1",
+  "seed": 20260524,
+  "split": {
+    "train": 8,
+    "test": 15
+  },
+  "target_definition": "maximum circle radius (pixel-like integer)",
+  "train": [
+    {
+      "id": "image_001",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.3499615790593873,
+            "y": 0.8053632528249978,
+            "radius_px": 13
+          },
+          {
+            "x": 0.32344997460040914,
+            "y": 0.5605784593214265,
+            "radius_px": 14
+          },
+          {
+            "x": 0.7326233043010213,
+            "y": 0.6183453242690798,
+            "radius_px": 16
+          },
+          {
+            "x": 0.4168668937841126,
+            "y": 0.25502698139518337,
+            "radius_px": 18
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/train/images/image_001.png"
+      },
+      "target_n": 18
+    },
+    {
+      "id": "image_002",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.7899634023102277,
+            "y": 0.3217869542691707,
+            "radius_px": 10
+          },
+          {
+            "x": 0.4050863699870871,
+            "y": 0.5971541086274027,
+            "radius_px": 12
+          },
+          {
+            "x": 0.15576454834628542,
+            "y": 0.7361021037878513,
+            "radius_px": 15
+          },
+          {
+            "x": 0.4692729258013221,
+            "y": 0.29909908919988204,
+            "radius_px": 16
+          },
+          {
+            "x": 0.15054477039020614,
+            "y": 0.31438696452447246,
+            "radius_px": 18
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/train/images/image_002.png"
+      },
+      "target_n": 18
+    },
+    {
+      "id": "image_003",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.16706337464317034,
+            "y": 0.43766541140878323,
+            "radius_px": 9
+          },
+          {
+            "x": 0.762061844238477,
+            "y": 0.16894325907107766,
+            "radius_px": 12
+          },
+          {
+            "x": 0.36932488249149503,
+            "y": 0.29302387937074176,
+            "radius_px": 13
+          },
+          {
+            "x": 0.2685966338455197,
+            "y": 0.7895888037424887,
+            "radius_px": 18
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/train/images/image_003.png"
+      },
+      "target_n": 18
+    },
+    {
+      "id": "image_004",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.44216301993673546,
+            "y": 0.7059006438168522,
+            "radius_px": 7
+          },
+          {
+            "x": 0.3577792028238709,
+            "y": 0.5662720142387712,
+            "radius_px": 8
+          },
+          {
+            "x": 0.16561232395863898,
+            "y": 0.4779373149141715,
+            "radius_px": 10
+          },
+          {
+            "x": 0.2610037792946635,
+            "y": 0.2066546637508505,
+            "radius_px": 12
+          },
+          {
+            "x": 0.6665171767272834,
+            "y": 0.17566412061993492,
+            "radius_px": 14
+          },
+          {
+            "x": 0.6494314807830806,
+            "y": 0.6572000187749808,
+            "radius_px": 15
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/train/images/image_004.png"
+      },
+      "target_n": 15
+    },
+    {
+      "id": "image_005",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.6680884710688709,
+            "y": 0.5305565299986807,
+            "radius_px": 7
+          },
+          {
+            "x": 0.4752852429682053,
+            "y": 0.7267263072844433,
+            "radius_px": 10
+          },
+          {
+            "x": 0.779715355270519,
+            "y": 0.8349483132154883,
+            "radius_px": 11
+          },
+          {
+            "x": 0.7365451706407776,
+            "y": 0.1464882374893461,
+            "radius_px": 13
+          },
+          {
+            "x": 0.16525970021439657,
+            "y": 0.36648385561776653,
+            "radius_px": 17
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/train/images/image_005.png"
+      },
+      "target_n": 17
+    },
+    {
+      "id": "image_006",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.5058793546461431,
+            "y": 0.20199602671096456,
+            "radius_px": 6
+          },
+          {
+            "x": 0.29072102331210836,
+            "y": 0.6032052353643773,
+            "radius_px": 11
+          },
+          {
+            "x": 0.5460210619566772,
+            "y": 0.7679889621060092,
+            "radius_px": 13
+          },
+          {
+            "x": 0.2935070894939647,
+            "y": 0.3347071136363079,
+            "radius_px": 15
+          },
+          {
+            "x": 0.7287573433858171,
+            "y": 0.19521556521132977,
+            "radius_px": 16
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/train/images/image_006.png"
+      },
+      "target_n": 16
+    },
+    {
+      "id": "image_007",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.49620519478827285,
+            "y": 0.15175692195547305,
+            "radius_px": 6
+          },
+          {
+            "x": 0.5933733931649259,
+            "y": 0.4867110765796919,
+            "radius_px": 11
+          },
+          {
+            "x": 0.7400989385116591,
+            "y": 0.7340598981154137,
+            "radius_px": 13
+          },
+          {
+            "x": 0.8099373449343701,
+            "y": 0.28005448196134586,
+            "radius_px": 14
+          },
+          {
+            "x": 0.18659861788573612,
+            "y": 0.4705053219112307,
+            "radius_px": 18
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/train/images/image_007.png"
+      },
+      "target_n": 18
+    },
+    {
+      "id": "image_008",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.3836218594881335,
+            "y": 0.19597611486897087,
+            "radius_px": 6
+          },
+          {
+            "x": 0.6490646702322156,
+            "y": 0.48818190084803165,
+            "radius_px": 8
+          },
+          {
+            "x": 0.8030305443417969,
+            "y": 0.32410562390546854,
+            "radius_px": 14
+          },
+          {
+            "x": 0.42364461807566484,
+            "y": 0.6481433988108494,
+            "radius_px": 16
+          },
+          {
+            "x": 0.1985459199507309,
+            "y": 0.41227856174495986,
+            "radius_px": 17
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/train/images/image_008.png"
+      },
+      "target_n": 17
+    }
+  ],
+  "test": [
+    {
+      "id": "image_009",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.14421561997766447,
+            "y": 0.22505991973224573,
+            "radius_px": 7
+          },
+          {
+            "x": 0.5666312147264099,
+            "y": 0.8506521763015947,
+            "radius_px": 12
+          },
+          {
+            "x": 0.6906308067663891,
+            "y": 0.5415998222408468,
+            "radius_px": 16
+          },
+          {
+            "x": 0.18354880834012668,
+            "y": 0.7849474332820682,
+            "radius_px": 17
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_009.png"
+      },
+      "target_n": 17
+    },
+    {
+      "id": "image_010",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.19373289716493178,
+            "y": 0.7152403570031765,
+            "radius_px": 6
+          },
+          {
+            "x": 0.5609309022420338,
+            "y": 0.3253851345841643,
+            "radius_px": 7
+          },
+          {
+            "x": 0.2788996137241715,
+            "y": 0.43665867357672217,
+            "radius_px": 11
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_010.png"
+      },
+      "target_n": 11
+    },
+    {
+      "id": "image_011",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.2076723774730071,
+            "y": 0.461736782673279,
+            "radius_px": 9
+          },
+          {
+            "x": 0.4774632534397002,
+            "y": 0.2809835235791269,
+            "radius_px": 13
+          },
+          {
+            "x": 0.8405137929813822,
+            "y": 0.5848099514454504,
+            "radius_px": 14
+          },
+          {
+            "x": 0.5709662936149177,
+            "y": 0.8527172382063478,
+            "radius_px": 18
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_011.png"
+      },
+      "target_n": 18
+    },
+    {
+      "id": "image_012",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.3292547354681594,
+            "y": 0.38239540347413714,
+            "radius_px": 6
+          },
+          {
+            "x": 0.2882752083532967,
+            "y": 0.23719931112151854,
+            "radius_px": 9
+          },
+          {
+            "x": 0.1742353872109872,
+            "y": 0.5126429447662251,
+            "radius_px": 13
+          },
+          {
+            "x": 0.7313003687523012,
+            "y": 0.7741875818345407,
+            "radius_px": 14
+          },
+          {
+            "x": 0.835468967518756,
+            "y": 0.19702720447373048,
+            "radius_px": 16
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_012.png"
+      },
+      "target_n": 16
+    },
+    {
+      "id": "image_013",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.47543436497824865,
+            "y": 0.6689266451626735,
+            "radius_px": 7
+          },
+          {
+            "x": 0.6839119694504363,
+            "y": 0.6114658225239142,
+            "radius_px": 11
+          },
+          {
+            "x": 0.1704357417524224,
+            "y": 0.37792586161899305,
+            "radius_px": 17
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_013.png"
+      },
+      "target_n": 17
+    },
+    {
+      "id": "image_014",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.6372789019596021,
+            "y": 0.47415624359316105,
+            "radius_px": 6
+          },
+          {
+            "x": 0.19853401368742907,
+            "y": 0.40775006611352205,
+            "radius_px": 9
+          },
+          {
+            "x": 0.4951411175079812,
+            "y": 0.8467624834435851,
+            "radius_px": 18
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_014.png"
+      },
+      "target_n": 18
+    },
+    {
+      "id": "image_015",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.22934040084591478,
+            "y": 0.49360001851143187,
+            "radius_px": 7
+          },
+          {
+            "x": 0.48603035631694597,
+            "y": 0.7072832202284893,
+            "radius_px": 8
+          },
+          {
+            "x": 0.17276754162179395,
+            "y": 0.8208858243325918,
+            "radius_px": 10
+          },
+          {
+            "x": 0.6443119351359882,
+            "y": 0.2675662428904685,
+            "radius_px": 11
+          },
+          {
+            "x": 0.7724707115030383,
+            "y": 0.7919934033531371,
+            "radius_px": 17
+          },
+          {
+            "x": 0.3706610417174482,
+            "y": 0.2230134312952521,
+            "radius_px": 18
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_015.png"
+      },
+      "target_n": 18
+    },
+    {
+      "id": "image_016",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.6338640889421909,
+            "y": 0.3652192594979619,
+            "radius_px": 6
+          },
+          {
+            "x": 0.16244449757872362,
+            "y": 0.7409112168647279,
+            "radius_px": 10
+          },
+          {
+            "x": 0.7013433233615298,
+            "y": 0.5359645662915247,
+            "radius_px": 12
+          },
+          {
+            "x": 0.8004688349523938,
+            "y": 0.7767940505259421,
+            "radius_px": 16
+          },
+          {
+            "x": 0.35677965241135756,
+            "y": 0.14538405650876385,
+            "radius_px": 17
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_016.png"
+      },
+      "target_n": 17
+    },
+    {
+      "id": "image_017",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.4804646007506111,
+            "y": 0.260097125923716,
+            "radius_px": 7
+          },
+          {
+            "x": 0.7228266982862047,
+            "y": 0.7049257466781318,
+            "radius_px": 8
+          },
+          {
+            "x": 0.5511387824669383,
+            "y": 0.4969186277839223,
+            "radius_px": 9
+          },
+          {
+            "x": 0.18837354665430994,
+            "y": 0.7460929395975989,
+            "radius_px": 10
+          },
+          {
+            "x": 0.8577771573846602,
+            "y": 0.20760928885186747,
+            "radius_px": 13
+          },
+          {
+            "x": 0.17399431649582436,
+            "y": 0.3931774225314665,
+            "radius_px": 17
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_017.png"
+      },
+      "target_n": 17
+    },
+    {
+      "id": "image_018",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.4111338664886346,
+            "y": 0.8034328682613753,
+            "radius_px": 7
+          },
+          {
+            "x": 0.2719748490759807,
+            "y": 0.2842254647256777,
+            "radius_px": 8
+          },
+          {
+            "x": 0.6092590444755973,
+            "y": 0.5962400331796708,
+            "radius_px": 11
+          },
+          {
+            "x": 0.2233748305325094,
+            "y": 0.5826858094253693,
+            "radius_px": 14
+          },
+          {
+            "x": 0.5569244209114188,
+            "y": 0.29716693871391064,
+            "radius_px": 18
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_018.png"
+      },
+      "target_n": 18
+    },
+    {
+      "id": "image_019",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.6845722213530083,
+            "y": 0.2971933142509967,
+            "radius_px": 7
+          },
+          {
+            "x": 0.5418327680907725,
+            "y": 0.823330796315432,
+            "radius_px": 12
+          },
+          {
+            "x": 0.16835986627296978,
+            "y": 0.1585122356529754,
+            "radius_px": 18
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_019.png"
+      },
+      "target_n": 18
+    },
+    {
+      "id": "image_020",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.1474448703051642,
+            "y": 0.4941031259133317,
+            "radius_px": 7
+          },
+          {
+            "x": 0.3741340465941265,
+            "y": 0.16005187944525529,
+            "radius_px": 11
+          },
+          {
+            "x": 0.5482922690770972,
+            "y": 0.7359263905785202,
+            "radius_px": 15
+          },
+          {
+            "x": 0.7379601686357533,
+            "y": 0.3461133198922612,
+            "radius_px": 18
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_020.png"
+      },
+      "target_n": 18
+    },
+    {
+      "id": "image_021",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.5663614359499075,
+            "y": 0.5431787533187808,
+            "radius_px": 7
+          },
+          {
+            "x": 0.2521463878659544,
+            "y": 0.36941270630025946,
+            "radius_px": 9
+          },
+          {
+            "x": 0.8280558365672028,
+            "y": 0.2049277531602805,
+            "radius_px": 15
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_021.png"
+      },
+      "target_n": 15
+    },
+    {
+      "id": "image_022",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.38802280082613627,
+            "y": 0.2137197288783969,
+            "radius_px": 6
+          },
+          {
+            "x": 0.7680016316429783,
+            "y": 0.6182240774713879,
+            "radius_px": 11
+          },
+          {
+            "x": 0.3673994805821266,
+            "y": 0.44299333966831317,
+            "radius_px": 12
+          },
+          {
+            "x": 0.27481201446596915,
+            "y": 0.7469343184875161,
+            "radius_px": 13
+          },
+          {
+            "x": 0.8239073983300272,
+            "y": 0.1871870828216295,
+            "radius_px": 17
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_022.png"
+      },
+      "target_n": 17
+    },
+    {
+      "id": "image_023",
+      "task_name": "multimodal_task3",
+      "target_definition": "maximum circle radius (pixel-like integer)",
+      "meta": {
+        "circles": [
+          {
+            "x": 0.7720047521966051,
+            "y": 0.6281111022389456,
+            "radius_px": 7
+          },
+          {
+            "x": 0.7830778312421012,
+            "y": 0.8292873090990196,
+            "radius_px": 8
+          },
+          {
+            "x": 0.2632133915992731,
+            "y": 0.4327641407449376,
+            "radius_px": 10
+          },
+          {
+            "x": 0.4974927614406612,
+            "y": 0.3037881183183102,
+            "radius_px": 18
+          }
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task3/test/images/image_023.png"
+      },
+      "target_n": 18
+    }
+  ]
+}

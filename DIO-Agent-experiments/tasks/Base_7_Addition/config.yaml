@@ -1,0 +1,116 @@
+# DIO-Agent 配置文件 - Base_7_Addition
+max_iterations: 50
+checkpoint_interval: 10
+log_level: "INFO"
+
+# LLM 配置
+llm:
+  models:
+    - name: "deepseek/deepseek-v3.2"
+      weight: 1.0
+  
+  evaluator_models:
+    - name: "deepseek/deepseek-v3.2"
+      weight: 1.0
+  
+  api_base: https://openrouter.ai/api/v1
+  api_key: "${OPENROUTER_API_KEY}"
+  temperature: 0.7
+  top_p: 0.95
+  max_tokens: 16384
+  timeout: 60
+  retries: 3
+
+# Prompt 配置
+prompt:
+  system_message: |
+    You are an expert programmer specializing in program synthesis from examples.
+    
+    Your task is to implement a function that works correctly on the given input-output examples.
+    You need to infer the pattern from these examples and write code that generalizes to all test cases.
+    
+    **Training Examples (you can see these):**
+        Example 1:
+      Input:  [[0, 5, 2, 1], [1, 1, 5, 0]]
+      Output: [5, 2]
+    Example 2:
+      Input:  [[4, 3, 0, 0], [0, 1, 1, 4]]
+      Output: [0, 2]
+    Example 3:
+      Input:  [[4, 1, 5], [5, 5, 4]]
+      Output: [5, 3]
+    Example 4:
+      Input:  [[1, 3, 4, 2, 6, 6, 0, 6, 6], [1, 5, 3, 2, 2, 1, 1, 6, 2]]
+      Output: [4, 6]
+    Example 5:
+      Input:  [[0, 3, 0, 2], [6, 2, 4, 2]]
+      Output: [3, 1]
+    Example 6:
+      Input:  [[5, 3, 4], [0, 3, 0]]
+      Output: [1, 4]
+    Example 7:
+      Input:  [[6, 5, 4, 6, 2, 4, 1], [5, 0, 0, 5, 1, 6, 2]]
+      Output: [4, 6]
+    Example 8:
+      Input:  [[6, 1, 6, 0], [3, 2, 3, 5]]
+      Output: [0, 6]
+    
+    **IMPORTANT NOTES:**
+    - These are TRAINING examples only (randomly generated with seed=42)
+    - Your program will be evaluated on a SEPARATE TEST SET (seed=999) that you haven't seen
+    - You must infer the GENERAL PATTERN, not memorize specific examples
+    - The test set has different inputs than the training examples shown above
+    
+    **Requirements:**
+    - Input: list of two lists
+    - Output: list
+    - The function must generalize to unseen examples
+    - Don't hardcode mappings for specific inputs
+    - Handle edge cases appropriately (empty lists, single elements, etc.)
+    
+    **Your goal:**
+    Write a function that achieves 100% accuracy on the UNSEEN test set by learning the pattern from training examples.
+  
+  num_top_programs: 3
+  num_diverse_programs: 2
+  use_template_stochasticity: true
+  include_artifacts: true
+  max_artifact_bytes: 20480
+
+# Database 配置
+database:
+  db_path: null
+  in_memory: true
+  log_prompts: true
+  population_size: 100
+  archive_size: 30
+  num_islands: 3
+  elite_selection_ratio: 0.2
+  exploitation_ratio: 0.7
+  similarity_threshold: 0.95
+
+# Evaluator 配置
+evaluator:
+  timeout: 30
+  cascade_evaluation: false
+  cascade_thresholds: [0.5, 0.8]
+  parallel_evaluations: 1
+
+# Evolution 设置
+diff_based_evolution: true
+max_code_length: 10000
+early_stopping_patience: 5
+convergence_threshold: 0.001
+early_stopping_metric: "combined_score"
+
+process_parallel:
+  num_workers: 1
+
+evolution_trace:
+  enabled: true
+  format: "jsonl"
+  include_code: true
+  include_prompts: true
+  output_path: null
+  buffer_size: 1
+  compress: false

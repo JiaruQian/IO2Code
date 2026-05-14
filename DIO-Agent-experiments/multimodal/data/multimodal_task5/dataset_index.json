@@ -1,0 +1,450 @@
+{
+  "dataset_name": "multimodal_task5_diverse_v1",
+  "seed": 20260718,
+  "split": {
+    "train": 8,
+    "test": 15
+  },
+  "target_definition": "bar chart index of tallest bar",
+  "train": [
+    {
+      "id": "image_001",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          6,
+          1,
+          9,
+          5,
+          6,
+          2
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/train/images/image_001.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_002",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          6,
+          1,
+          3,
+          8,
+          3,
+          11
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/train/images/image_002.png"
+      },
+      "target_n": 5
+    },
+    {
+      "id": "image_003",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          1,
+          10,
+          2,
+          7,
+          2,
+          8
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/train/images/image_003.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_004",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          7,
+          10,
+          4,
+          4,
+          3,
+          3
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/train/images/image_004.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_005",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          1,
+          4,
+          11,
+          8,
+          4,
+          7
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/train/images/image_005.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_006",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          6,
+          4,
+          11,
+          6,
+          7,
+          9
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/train/images/image_006.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_007",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          11,
+          2,
+          2,
+          4,
+          3,
+          5
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/train/images/image_007.png"
+      },
+      "target_n": 0
+    },
+    {
+      "id": "image_008",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          11,
+          2,
+          2,
+          4,
+          9,
+          2
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/train/images/image_008.png"
+      },
+      "target_n": 0
+    }
+  ],
+  "test": [
+    {
+      "id": "image_009",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          7,
+          4,
+          11,
+          4,
+          8,
+          3
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_009.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_010",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          9,
+          5,
+          1,
+          5,
+          1,
+          7
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_010.png"
+      },
+      "target_n": 0
+    },
+    {
+      "id": "image_011",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          6,
+          11,
+          1,
+          4,
+          5,
+          5
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_011.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_012",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          2,
+          10,
+          3,
+          1,
+          4,
+          4
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_012.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_013",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          11,
+          6,
+          1,
+          6,
+          6,
+          4
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_013.png"
+      },
+      "target_n": 0
+    },
+    {
+      "id": "image_014",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          1,
+          3,
+          2,
+          11,
+          4,
+          4
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_014.png"
+      },
+      "target_n": 3
+    },
+    {
+      "id": "image_015",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          5,
+          1,
+          2,
+          7,
+          10,
+          8
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_015.png"
+      },
+      "target_n": 4
+    },
+    {
+      "id": "image_016",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          10,
+          6,
+          2,
+          8,
+          5,
+          5
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_016.png"
+      },
+      "target_n": 0
+    },
+    {
+      "id": "image_017",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          1,
+          8,
+          11,
+          9,
+          7,
+          1
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_017.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_018",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          5,
+          7,
+          11,
+          3,
+          9,
+          7
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_018.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_019",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          10,
+          3,
+          3,
+          8,
+          3,
+          8
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_019.png"
+      },
+      "target_n": 0
+    },
+    {
+      "id": "image_020",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          1,
+          1,
+          3,
+          9,
+          5,
+          7
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_020.png"
+      },
+      "target_n": 3
+    },
+    {
+      "id": "image_021",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          6,
+          2,
+          4,
+          11,
+          6,
+          1
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_021.png"
+      },
+      "target_n": 3
+    },
+    {
+      "id": "image_022",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          4,
+          4,
+          2,
+          4,
+          8,
+          4
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_022.png"
+      },
+      "target_n": 4
+    },
+    {
+      "id": "image_023",
+      "task_name": "multimodal_task5",
+      "target_definition": "bar chart index of tallest bar",
+      "meta": {
+        "heights": [
+          2,
+          2,
+          3,
+          4,
+          1,
+          11
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task5/test/images/image_023.png"
+      },
+      "target_n": 5
+    }
+  ]
+}

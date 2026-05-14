@@ -1,0 +1,116 @@
+# DIO-Agent 配置文件 - Dithering
+max_iterations: 50
+checkpoint_interval: 10
+log_level: "INFO"
+
+# LLM 配置
+llm:
+  models:
+    - name: "deepseek/deepseek-v3.2"
+      weight: 1.0
+  
+  evaluator_models:
+    - name: "deepseek/deepseek-v3.2"
+      weight: 1.0
+  
+  api_base: https://openrouter.ai/api/v1
+  api_key: "${OPENROUTER_API_KEY}"
+  temperature: 0.7
+  top_p: 0.95
+  max_tokens: 16384
+  timeout: 60
+  retries: 3
+
+# Prompt 配置
+prompt:
+  system_message: |
+    You are an expert programmer specializing in program synthesis from examples.
+    
+    Your task is to implement a function that works correctly on the given input-output examples.
+    You need to infer the pattern from these examples and write code that generalizes to all test cases.
+    
+    **Training Examples (you can see these):**
+        Example 1:
+      Input:  [0.025010755222666936, 0.27502931836911926, 0.22321073814882275, 0.7364712141640124]
+      Output: [0, 0, 1, 0]
+    Example 2:
+      Input:  [0.5904925124490397, 0.03178267948178359, 0.09369523986159245, 0.2326608933907396]
+      Output: [1, 0, 0, 0]
+    Example 3:
+      Input:  [0.561245062938613, 0.7160196129224035, 0.7013249735902359]
+      Output: [1, 0, 1]
+    Example 4:
+      Input:  [0.2204406220406967, 0.5892656838759087, 0.8094304566778266, 0.006498759678061017, 0.8058192518328079, 0.6981393949882269, 0.3402505165179919, 0.15547949981178155, 0.9572130722067812]
+      Output: [0, 1, 1, 0, 0, 1, 0, 1, 1]
+    Example 5:
+      Input:  [0.10221027651984871, 0.3799273006373374, 0.3589793804846284, 0.3439557224789711, 0.26452086722201307, 0.04345044292309719, 0.45942487967184253, 0.12482616285320935]
+      Output: [0, 0, 1, 0, 0, 0, 1, 0]
+    Example 6:
+      Input:  [0.07880019807845817, 0.2931782814070929, 0.6286397994944434, 0.8854517479368068, 0.3616350261669765, 0.1922885902566599, 0.06955514882374092, 0.6612633185677101, 0.7730683407886919]
+      Output: [0, 0, 1, 1, 0, 0, 1, 0, 1]
+    Example 7:
+      Input:  [0.8553177210151469, 0.8664836667552697, 0.38012622503916615, 0.4534103023684355]
+      Output: [1, 1, 0, 1]
+    Example 8:
+      Input:  [0.1626540971560848, 0.3552707002275215, 0.6701751743776934, 0.7018203134585513, 0.6835476655366672, 0.07140250957854832, 0.6349782881970603, 0.534139877029708]
+      Output: [0, 1, 0, 1, 1, 0, 0, 1]
+    
+    **IMPORTANT NOTES:**
+    - These are TRAINING examples only (randomly generated with seed=42)
+    - Your program will be evaluated on a SEPARATE TEST SET (seed=999) that you haven't seen
+    - You must infer the GENERAL PATTERN, not memorize specific examples
+    - The test set has different inputs than the training examples shown above
+    
+    **Requirements:**
+    - Input: list
+    - Output: list
+    - The function must generalize to unseen examples
+    - Don't hardcode mappings for specific inputs
+    - Handle edge cases appropriately (empty lists, single elements, etc.)
+    
+    **Your goal:**
+    Write a function that achieves 100% accuracy on the UNSEEN test set by learning the pattern from training examples.
+  
+  num_top_programs: 3
+  num_diverse_programs: 2
+  use_template_stochasticity: true
+  include_artifacts: true
+  max_artifact_bytes: 20480
+
+# Database 配置
+database:
+  db_path: null
+  in_memory: true
+  log_prompts: true
+  population_size: 100
+  archive_size: 30
+  num_islands: 3
+  elite_selection_ratio: 0.2
+  exploitation_ratio: 0.7
+  similarity_threshold: 0.95
+
+# Evaluator 配置
+evaluator:
+  timeout: 30
+  cascade_evaluation: false
+  cascade_thresholds: [0.5, 0.8]
+  parallel_evaluations: 1
+
+# Evolution 设置
+diff_based_evolution: true
+max_code_length: 10000
+early_stopping_patience: 5
+convergence_threshold: 0.001
+early_stopping_metric: "combined_score"
+
+process_parallel:
+  num_workers: 1
+
+evolution_trace:
+  enabled: true
+  format: "jsonl"
+  include_code: true
+  include_prompts: true
+  output_path: null
+  buffer_size: 1
+  compress: false

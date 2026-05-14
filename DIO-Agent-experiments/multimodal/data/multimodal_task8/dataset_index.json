@@ -1,0 +1,427 @@
+{
+  "dataset_name": "multimodal_task8_diverse_v1",
+  "seed": 20261203,
+  "split": {
+    "train": 8,
+    "test": 15
+  },
+  "target_definition": "pie chart largest-slice index",
+  "train": [
+    {
+      "id": "image_001",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          3,
+          1,
+          3,
+          8,
+          5
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/train/images/image_001.png"
+      },
+      "target_n": 3
+    },
+    {
+      "id": "image_002",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          5,
+          2,
+          12,
+          6,
+          3
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/train/images/image_002.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_003",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          2,
+          12,
+          7,
+          8,
+          3
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/train/images/image_003.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_004",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          7,
+          5,
+          3,
+          12,
+          5
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/train/images/image_004.png"
+      },
+      "target_n": 3
+    },
+    {
+      "id": "image_005",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          12,
+          8,
+          9,
+          3,
+          7
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/train/images/image_005.png"
+      },
+      "target_n": 0
+    },
+    {
+      "id": "image_006",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          1,
+          7,
+          12,
+          8,
+          1
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/train/images/image_006.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_007",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          11,
+          1,
+          8,
+          3,
+          5
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/train/images/image_007.png"
+      },
+      "target_n": 0
+    },
+    {
+      "id": "image_008",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          5,
+          5,
+          5,
+          9,
+          5
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/train/images/image_008.png"
+      },
+      "target_n": 3
+    }
+  ],
+  "test": [
+    {
+      "id": "image_009",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          10,
+          2,
+          2,
+          7,
+          3
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_009.png"
+      },
+      "target_n": 0
+    },
+    {
+      "id": "image_010",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          2,
+          5,
+          2,
+          9,
+          3
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_010.png"
+      },
+      "target_n": 3
+    },
+    {
+      "id": "image_011",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          5,
+          5,
+          11,
+          1,
+          2
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_011.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_012",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          1,
+          11,
+          7,
+          2,
+          2
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_012.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_013",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          1,
+          4,
+          7,
+          11,
+          3
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_013.png"
+      },
+      "target_n": 3
+    },
+    {
+      "id": "image_014",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          4,
+          7,
+          7,
+          3,
+          11
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_014.png"
+      },
+      "target_n": 4
+    },
+    {
+      "id": "image_015",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          5,
+          12,
+          4,
+          2,
+          3
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_015.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_016",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          1,
+          12,
+          3,
+          3,
+          6
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_016.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_017",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          4,
+          8,
+          4,
+          4,
+          2
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_017.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_018",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          3,
+          1,
+          3,
+          9,
+          4
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_018.png"
+      },
+      "target_n": 3
+    },
+    {
+      "id": "image_019",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          6,
+          5,
+          12,
+          7,
+          9
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_019.png"
+      },
+      "target_n": 2
+    },
+    {
+      "id": "image_020",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          7,
+          11,
+          6,
+          3,
+          6
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_020.png"
+      },
+      "target_n": 1
+    },
+    {
+      "id": "image_021",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          6,
+          4,
+          1,
+          2,
+          12
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_021.png"
+      },
+      "target_n": 4
+    },
+    {
+      "id": "image_022",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          11,
+          1,
+          3,
+          2,
+          6
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_022.png"
+      },
+      "target_n": 0
+    },
+    {
+      "id": "image_023",
+      "task_name": "multimodal_task8",
+      "target_definition": "pie chart largest-slice index",
+      "meta": {
+        "slice_values": [
+          2,
+          11,
+          1,
+          3,
+          1
+        ]
+      },
+      "files": {
+        "image_png": "multimodal/data/multimodal_task8/test/images/image_023.png"
+      },
+      "target_n": 1
+    }
+  ]
+}
