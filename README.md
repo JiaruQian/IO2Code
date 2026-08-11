@@ -154,3 +154,13 @@ Important files include:
 - `example_query_logs/`: active-oracle LLM query prompts, responses, and execution metadata.
 
 Batch wrappers additionally write JSONL and CSV summaries under `dio_agent_batch_results/`, `active_dio_agent_batch_results/`, or `active_base_batch_results/`.
+
+## Citation
+```bibtex
+@article{dong2026IO2Code,
+      title={From I/O to Code with Discovery Agent}, 
+      author={Yihong Dong and Jiaru Qian and Haoran Zhang and Peixu Wang and Binhua Li and Zhi Jin and Yongbin Li and Ge Li and Xiaokang Yang and Xue Jiang},
+      journal={arXiv preprint arXiv:2605.15334},
+      year={2026}
+}
+```
